@@ -120,14 +120,21 @@ h2{
 
 
 p{
-
+    font-size: 0.75rem;
+    letter-spacing: 0.03125rem;
+    word-spacing: 0.125rem;
 }
 
 li{
     
+    font-size: 0.75rem;
+    letter-spacing: 0.03125rem;
+    word-spacing: 0.125rem;
 }
 
-figcaption{}
+figcaption{
+    
+}
 
 /* Link Styling */
 
