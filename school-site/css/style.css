@@ -36,7 +36,7 @@ figure {
 
 figure img {
     width:100%;
-    max-width:2500rem;
+    max-width:250rem;
 }
 
 figcaption {
@@ -108,10 +108,13 @@ h1, h2 {
 }
 
 h1{
-
+    font-size: 3.75rem;
+    margin: 1.12grem;
+    text-align: center;
 }
 
 h2{
+    font-size: 1.5rem;
 
 }
 
