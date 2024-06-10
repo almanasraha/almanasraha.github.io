@@ -89,6 +89,17 @@ h1 {
     font-size: 3rem;
     letter-spacing: 0.25rem;
     transform: rotate(-5deg);
+    text-align: center;
+}
+
+.rotate {
+    display: inline-block;
+    transform: rotate(5deg);
+    text-align: center;
+}
+
+.cross-line{
+    text-decoration: line-through; 
 }
 
 .highlight {
@@ -160,6 +171,10 @@ aside p {
     display: flex;
 }
 
+.attribution{
+    text-align: right;
+}
+
 
 /*  IMAGES AND FIGURES  */
 
@@ -224,19 +239,32 @@ nav a:active {
     text-align: center;
 }
 
-
-
-
 .expand{
     font-size: 0.2rem;
 }
 
 button{
-    background-color: rgba(35, 122, 35, 0.267);
-    padding: 0.3rem;
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: #ddd4e2;
+    padding: 0.7rem;
     border-radius: 0.25rem;
     border: 0.3rem;
     border-top-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
+    text-align: center;
 }
+
+button a:focus,
+button a:hover{
+    font-size: 1.5rem;
+    background-color: #8e5da9;
+    padding: 0.7rem;
+    border-radius: 0.25rem;
+    border: 0.3rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    text-align: center;
+}
+
 
