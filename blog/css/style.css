@@ -167,6 +167,10 @@ aside p {
     padding-bottom: 0.5rem;
 }
 
+aside img{
+    width: 100%;
+}
+
 .subsection {
     display: flex;
 }
